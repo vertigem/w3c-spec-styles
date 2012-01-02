@@ -21,7 +21,7 @@ tidyTables = function () {
 
 // when prettify is loaded, run it!
 (function loopsiloop(){
-  if (window.prettyPrint){ 
+  if (window.prettyPrint){
    prettyPrint();
   } else {
     setTimeout(loopsiloop,100);
@@ -37,11 +37,11 @@ Array.prototype.slice.call(document.querySelectorAll('pre')).forEach(function(v,
 
 var elements = {
   link: {
-    href: "//raw.github.com/benschwarz/w3c-spec-styles/master/docs/css/prettify.css",
+    href: "http://vertigem.xxx/w3c-spec-styles/docs/css/prettify.css",
     rel:  "stylesheet"
   },
   script: {
-    src: "//raw.github.com/benschwarz/w3c-spec-styles/master/docs/js/prettify.js"
+    src: "http://vertigem.xxx/w3c-spec-styles/docs/js/prettify.js"
   }
 }
 
